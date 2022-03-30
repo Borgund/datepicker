@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
 
-body {
+body,
+html {
   margin: 0;
   font-family: "Source Sans Pro", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -8,7 +9,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  font-family: inherit;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --color-primary: rgba(143, 0, 17, 1);
+  --color-primary-50: rgba(143, 0, 17, 0.5);
+  --color-secondary: rgba(255, 211, 213, 1);
+  --color-secondary-50: rgb(255, 211, 213, 0.5);
+  --color-tertiary: rgba(0, 0, 0, 1);
+  --color-tertiary-50: rgba(0, 0, 0, 0.5);
 }
