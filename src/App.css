@@ -1,0 +1,8 @@
+body {
+  background-color: var(--color-secondary-50);
+  padding: 1rem;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
