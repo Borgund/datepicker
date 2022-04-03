@@ -1,0 +1,31 @@
+.timeToggle {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: 0.0625px solid var(--color-primary);
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: 6rem;
+  margin: 0.5rem;
+
+  &.available {
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+  }
+
+  &.occupied {
+    color: var(--color-primary-50);
+    background-color: var(--color-secondary);
+    border: none;
+    cursor: not-allowed;
+  }
+  &.active {
+    background-color: var(--color-secondary);
+    border: none;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.0625rem var(--color-primary);
+    background-color: var(--color-secondary-50);
+  }
+}
